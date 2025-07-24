@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Seed: 한의사 & AI, 지역 건강을 밝히다 - 노트북LM 활용</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f7f6;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        h1 {
+            font-size: 2.8em;
+            font-weight: 700;
+            color: #1a2c3d;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 15px;
+            display: inline-block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2 {
+            font-size: 2em;
+            font-weight: 600;
+            color: #34495e;
+            margin-top: 40px;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 10px;
+        }
+        h3 {
+            font-size: 1.5em;
+            font-weight: 500;
+            color: #555;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.7;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 25px;
+        }
+        ul li::before {
+            content: '🌿'; /* 🌱 or 💡 or 🌸 */
+            position: absolute;
+            left: 0;
+            color: #4CAF50;
+            font-size: 1.2em;
+        }
+        .highlight {
+            background-color: #e8f5e9;
+            padding: 15px 20px;
+            border-left: 5px solid #4CAF50;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+            font-weight: 500;
+            color: #2e7d32;
+        }
+        .button-group {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+            margin: 0 10px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+        .question-list li {
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #444;
+        }
+        .question-list li::before {
+            content: '❓';
+            color: #2196f3;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 AI Seed: 한의사 & AI, 지역 건강을 밝히다</h1>
+        <p style="text-align: center; font-size: 1.2em; color: #555;">
+            작은 배움의 씨앗이 지역을 바꿉니다. 모두가 AI를 쉽게 이해하고 함께 성장할 수 있는 AI 교육 봉사 프로젝트.
+        </p>
+
+        <h2>💡 AI 기반 개인 맞춤형 건강 정보 큐레이션</h2>
+        <p>
+            비전문가가 생성한 무분별한 건강 정보의 홍수 속에서, **한의사의 전문성과 AI 기술을 결합하여 신뢰할 수 있는 개인 맞춤형 건강 정보를 제공**하는 교육 프로그램을 제안합니다. 고연령층을 포함한 동해시 지역 주민들이 AI를 통해 쉽고 안전하게 건강 지식을 습득하고 실생활에 적용할 수 있도록 돕는 것이 목표입니다.
+        </p>
+        <div class="highlight">
+            🌿 **"AI는 마법이 아니에요. 우리가 매일 사용하는 검색엔진, 지도 앱, 번역기가 모두 AI예요. 함께 찾아볼까요?"**
+        </div>
+
+        <h2>✅ 왜 NotebookLM인가요?</h2>
+        <p>
+            이 프로젝트에 Google의 **NotebookLM**을 핵심 도구로 활용하는 것은 다음과 같은 명확한 이점 때문입니다.
+        </p>
+        <ul>
+            <li>**무료 & 높은 접근성:** 구글 계정만 있다면 누구나 무료로 사용 가능하여, 교육 참가자들의 진입 장벽을 최소화합니다.</li>
+            <li>**신뢰할 수 있는 소스 기반:** 사용자가 직접 업로드한 엄선된 자료(PDF, 텍스트 등)만을 학습하므로, AI 답변의 신뢰성이 매우 높습니다.</li>
+            <li>**명확한 출처 인용:** AI 답변의 어느 부분이 어떤 소스에서 왔는지 명확히 표시되어, 정보의 투명성과 검증 가능성이 뛰어납니다. 무책임한 할루시네이션 위험을 줄입니다.</li>
+            <li>**쉬운 사용성:** 복잡한 코딩 지식 없이도 직관적인 인터페이스로 AI를 활용할 수 있어, 고연령층 교육에 매우 적합합니다.</li>
+        </ul>
+
+        <h2>⚙️ 어떻게 활용하나요? (단계별 접근)</h2>
+        <h3>1. 신뢰할 수 있는 건강 정보 소스 확보</h3>
+        <p>
+            질병관리청 국가건강정보포털, 국민건강보험공단 건강 자료실, 국립암센터 국가암정보센터 등 **국가 및 공공기관의 공식적이고 검증된 건강 정보 백서, 가이드라인**을 최우선으로 확보합니다. 한의사로서의 전문성을 살려 필요한 정보를 선별합니다.
+        </p>
+        <h3>2. 데이터 가공 (OCR & 마크다운 변환)</h3>
+        <p>
+            PDF 형태의 원본 자료는 AI가 더 잘 이해할 수 있도록 **OCR(광학 문자 인식) 과정을 거쳐 텍스트로 추출**하고, 다시 **마크다운(Markdown) 형식으로 구조화**합니다. 이는 AI가 정보를 더 정확하게 인지하고 양질의 답변을 생성하는 데 필수적인 과정입니다. (이 과정은 필요시 전문가의 도움을 받습니다.)
+        </p>
+        <h3>3. NotebookLM에 학습시키기</h3>
+        <p>
+            가공된 건강 정보 소스(최대 50개 파일)를 NotebookLM에 업로드하여 AI의 지식 기반으로 활용합니다. 구글 드라이브 연동을 통해 소스 관리의 효율성을 높일 수 있습니다.
+        </p>
+        <h3>4. 사용자 질문 및 답변 실습</h3>
+        <p>
+            교육 참가자들이 NotebookLM에 직접 건강 관련 질문을 입력하고, AI가 학습된 신뢰할 수 있는 소스를 기반으로 답변을 내놓는 과정을 체험합니다. AI 답변의 출처를 확인하는 방법을 강조하고, 의료 전문가의 진단이 필수적임을 명확히 교육합니다.
+        </p>
+
+        <h2>🌟 주요 기대 효과</h2>
+        <ul>
+            <li>**AI 심리적 허들 해소:** AI가 어렵고 복잡한 것이 아닌, 실생활에 유용한 '건강 도우미'임을 체험합니다.</li>
+            <li>**신뢰성 있는 건강 지식 습득:** 무분별한 정보 속에서 검증된 지식을 스스로 찾아내는 능력을 함양합니다.</li>
+            <li>**자기 주도적 건강 관리:** 개인 맞춤형 건강 알림 및 정보 큐레이션을 통해 능동적으로 건강을 관리합니다.</li>
+            <li>**지역사회 디지털 역량 강화:** 동해시 주민들의 전반적인 디지털 리터러시를 향상시키고 디지털 격차를 줄입니다.</li>
+        </ul>
+
+        <h2>❓ 활용 예시 질문 (NotebookLM에 물어보세요!)</h2>
+        <ul class="question-list">
+            <li>"오늘 제가 먹은 혈압약, 어떻게 관리해야 하나요?"</li>
+            <li>"걷기 운동이 관절에 좋다고 하는데, 얼마나 걸어야 할까요?"</li>
+            <li>"환절기에 감기를 예방하려면 어떻게 해야 하나요?"</li>
+            <li>"우리 동네 보건소에서 받을 수 있는 무료 건강검진은 무엇인가요?"</li>
+            <li>"소화가 잘 안될 때 도움이 되는 음식이나 차가 있을까요?"</li>
+            <li>"밤에 잠이 잘 안 올 때 어떻게 하면 좋을까요?"</li>
+            <li>"어지러움증이 느껴지는데, 어떤 진료과를 찾아가야 할까요?"</li>
+            <li>"치매 예방을 위해 할 수 있는 간단한 활동은 무엇인가요?"</li>
+            <li>"고혈압 환자인데, 김치나 찌개를 먹어도 되나요? 나트륨 줄이는 방법은요?"</li>
+            <li>"넘어져서 다쳤을 때, 병원에 가기 전 어떻게 응급처치해야 하나요?"</li>
+        </ul>
+
+        <div class="button-group">
+            <a href="https://notebooklm.google.com/" target="_blank" class="btn">노트북LM 시작하기</a>
+            <a href="#" class="btn">AI Seed 프로젝트 참여하기</a>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2025 AI Seed Project. 모든 권리 보유.</p>
+        </div>
+    </div>
+</body>
+</html>
